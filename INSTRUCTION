@@ -1,0 +1,18 @@
+1) npm install --save redux-thunk
+2) npm start
+
+******************************************************************************************************************************************
+4) authentication:- 
+login, signup validation, form using firebase
+a) firebase database- https://console.firebase.google.com/u/0/project/burger-builder-2a343/database/burger-builder-2a343/data
+b) email permission- enable inside firebase
+c) https://firebase.google.com/docs/reference/rest/auth/#section-sign-in-email-password  --> Sign in with email / password
+https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=[API_KEY]
+
+d) https://firebase.google.com/docs/reference/rest/auth/ --> Sign up with email / password
+https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=[API_KEY]
+
+e) every thing save in firebase- burger quantity price, address, order details form
+
+f) along with error message - sign in time
+
